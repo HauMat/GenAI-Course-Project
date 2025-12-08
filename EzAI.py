@@ -2,7 +2,6 @@ import tkinter as tk
 from tkinter import scrolledtext
 from google import genai
 
-#Hi :3
 
 def response_dispaly(response): #Window function
   reply_window = tk.Tk()
@@ -55,4 +54,5 @@ def main():
 
 
 if __name__ == "__main__":
+
   main()
