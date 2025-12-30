@@ -13,11 +13,15 @@ To configure api key go to https://ai.google.dev/gemini-api/docs/api-key
 Click Get API key
 
 You need "google-genai" library to run the python file.
-pip install google-genai
+pip install -q -U google-genai
+
 
 Search Edit the system environment variables
+
 Click Environment Variables
+
 Make new user variable named: GOOGLE_API_KEY
+
 Variable value: "Api key"
 
 Add the EzAi.py to the folder you want to use it in.
